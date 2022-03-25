@@ -1,7 +1,7 @@
 // Faça um programa que peça dois números, imprima o maior deles ou imprima "Números iguais" 
 // se os números forem iguais
 const prompt = require('prompt-sync')();
-console.log(`Descubra se os nuúmero são maiores que o outro ou iguais!`);
+console.log(`Descubra se o número é maiores que o outro ou iguais!`);
 numero1 = +prompt(`Digite o primeiro número: `);
 numero2 = +prompt(`Digite o segundo número: `);
 
