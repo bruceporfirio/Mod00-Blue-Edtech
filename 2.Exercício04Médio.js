@@ -11,14 +11,14 @@ let nota = +prompt(`Digite sua nota: `);
 
 if (nota < 6) {
     console.log(`Sua nota foi F`);
-} else if (nota == 6 || nota <= 7 ) {
+} else if (nota == 6 || nota <= 7) {
     console.log(`Sua nota foi D`);
 } else if (nota == 7 || nota <= 8) {
     console.log(`Sua nota foi C`);
-} else if (nota == 8.0 || nota <= 9) {
+} else if (nota == 8 || nota <= 9) {
     console.log(`Sua nota foi B`);
-} else if (nota > 9 || nota <= 10); {
-    console.log(`Sua nota foi A`)
+} else if (nota > 9 || nota <= 10) {
+    console.log(`Sua nota foi A`);
 } 
 
 
