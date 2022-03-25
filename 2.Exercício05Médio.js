@@ -11,3 +11,16 @@
 // o percentual de aumento aplicado;
 // o valor do aumento;
 // o novo salário, após o aumento.
+const prompt = require('prompt-sync')(); 
+
+let salario = +prompt(`Digite o salário para calcular o aumento R$`)
+
+if (salario <= 280 ) {
+    console.log(`Salário atual R$${salario}; \nSalário reajustado em 20%; \nAumento de R$${(0.2 * salario).toFixed(2)} \nSalário final com reajuste R$${((salario * 0.2) + salario).toFixed(2)};`)
+} else if (salario > 280 && salario <= 700) {
+    console.log(`Salário atual R$${salario}; \nSalário reajustado em 15%; \nAumento de R$${(0.15 * salario).toFixed(2)} \nSalário final com reajuste R$${((salario * 0.15) + salario).toFixed(2)};`)
+} else if (salario >= 700 && salario <= 1500) {
+    console.log(`Salário atual R$${salario}; \nSalário reajustado em 10%; \nAumento de R$${(0.10 * salario).toFixed(2)} \nSalário final com reajuste R$${((salario * 0.10) + salario).toFixed(2)};`)
+} else if (salario > 1500) {
+    console.log(`Salário atual R$${salario}; \nSalário reajustado em 5%; \nAumento de R$${(0.05 * salario).toFixed(2)} \nSalário final com reajuste R$${((salario * 0.05) + salario).toFixed(2)};`)
+} 
