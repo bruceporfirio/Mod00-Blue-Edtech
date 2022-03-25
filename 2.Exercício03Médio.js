@@ -6,7 +6,7 @@ numero1 = +prompt(`Digite o primeiro número: `);
 numero2 = +prompt(`Digite o segundo número: `);
 
 if (numero1 > numero2) {
-    console.log(`O nuemro ${numero1} é maior!`)
+    console.log(`O número ${numero1} é maior!`)
 } else if (numero2 > numero1) {
     console.log(`O número ${numero2} é maior!`)
 } else {
