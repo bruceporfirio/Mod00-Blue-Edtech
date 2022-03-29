@@ -5,9 +5,11 @@ const prompt = require('prompt-sync')();
 
 let listaNumerica = [];
 
-while (listaNumerica >= 10) {
-    let listaNumerica = (+prompt(`Digite um número: `)).push
+while (listaNumerica <= 10) {
+    let listaNumerica = (+prompt(`Digite um número: `).push)
+    break
 }
+console.log(listaNumerica);
 // listaNumerica.push = +prompt(`Digite números: `)
 
 // console.log(listaNumerica)
